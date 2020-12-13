@@ -101,13 +101,17 @@ const marvelDB = {
 export default function App() {
   const [selectMovie, setSelectMovie] = useState("ironman");
 
-  function movieClickHandler() {}
+  function movieClickHandler() {
+    setSelectMovie();
+  }
   return (
     <div className="App">
       <h1>Marvel-Movies-Recommender</h1>
       <h2>Watch this awesome marvel movies.</h2>
 
-      <button onClick={() => movieClickHandler()}>{}</button>
+      {Object.keys(marvelDB).map((movie) => (
+        <button onClick={() => movieClickHandler(movie)}>{movie}</button>
+      ))}
     </div>
   );
 }
