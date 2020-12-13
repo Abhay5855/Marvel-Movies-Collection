@@ -115,6 +115,12 @@ export default function App() {
 
       <ul>
         {marvelDB[selectMovie].map((category) => (
+          <li key={category.release}>
+            <div>{category.release}</div>
+            <div>{category.rating}</div>
+            <div>{category.description}</div>
+          </li>
+        ))}
       </ul>
     </div>
   );
