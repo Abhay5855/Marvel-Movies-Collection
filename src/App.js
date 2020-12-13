@@ -115,7 +115,8 @@ export default function App() {
 
       <ul>
         {marvelDB[selectMovie].map((category) => (
-          <li key={category.release}>
+          <li key={category.id}>
+            <div>{category.name}</div>
             <div>{category.release}</div>
             <div>{category.rating}</div>
             <div>{category.description}</div>
