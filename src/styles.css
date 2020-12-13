@@ -2,3 +2,56 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+body {
+  background-color: #d1d5db;
+}
+
+h1 {
+  color: red;
+}
+
+span {
+  color: blue;
+}
+
+h2 {
+  color: #3b82f6;
+}
+
+.imag {
+  width: 350px;
+}
+
+button {
+  padding: 10px 24px;
+  background-color: black;
+  display: inline-block;
+  font-size: 19px;
+  cursor: pointer;
+  margin: 0.5rem;
+  color: white;
+}
+
+ul {
+  text-align: left;
+  padding: "1rem";
+}
+h3 {
+  color: #cc3333;
+}
+
+div {
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.cate {
+  font-size: 30px;
+  color: black;
+  border: 1px solid black;
+  padding: 1rem;
+}
