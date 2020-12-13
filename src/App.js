@@ -103,6 +103,8 @@ export default function App() {
     <div className="App">
       <h1>Marvel-Movies-Recommender</h1>
       <h2>Watch this awesome marvel movies.</h2>
+
+      <button onClick={() => movieClickHandler()}>{}</button>
     </div>
   );
 }
