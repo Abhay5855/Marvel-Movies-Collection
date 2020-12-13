@@ -99,6 +99,7 @@ const marvelDB = {
 };
 
 export default function App() {
+  function movieClickHandler() {}
   return (
     <div className="App">
       <h1>Marvel-Movies-Recommender</h1>
