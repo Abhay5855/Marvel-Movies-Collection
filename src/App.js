@@ -112,6 +112,10 @@ export default function App() {
       {Object.keys(marvelDB).map((movie) => (
         <button onClick={() => movieClickHandler(movie)}>{movie}</button>
       ))}
+
+      <ul>
+        {marvelDB[selectMovie].map((category) => (
+      </ul>
     </div>
   );
 }
