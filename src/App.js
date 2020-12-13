@@ -101,8 +101,8 @@ const marvelDB = {
 export default function App() {
   const [selectMovie, setSelectMovie] = useState("ironman");
 
-  function movieClickHandler() {
-    setSelectMovie();
+  function movieClickHandler(movie) {
+    setSelectMovie(movie);
   }
   return (
     <div className="App">
